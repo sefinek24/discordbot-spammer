@@ -12,7 +12,6 @@ for (const token of auth.tokens) {
 		if (!guild) return console.error('Guild not found.');
 
 		guild.channels.cache.forEach(channel => {
-
 			if (channel.type === 'GUILD_VOICE' || channel.type === 'GUILD_CATEGORY') return;
 
 			setInterval(async () => {
